@@ -1,0 +1,48 @@
+---
+title: An example presentation
+author:
+    - name: Aey Person
+      affiliations:
+          - name: Fish Program
+    - name: Anne Otter
+      affiliations:
+          - name: Habitat Program
+format: 
+    revealjs:
+        chalkboard: false
+        embed-resources: true
+        show-notes: false
+        footer: <img src="templates/wdfw-footer.png">
+        css: templates/wdfw.css
+    pptx:
+        reference-doc: templates/wdfw-template.pptx
+---
+
+```{r}
+#| name: setup
+#| echo: false
+#| warning: false
+#| message: false
+library(tidyverse)
+```
+
+## What's our problem?
+
+::: {.notes}
+- Viewers won't see these, but you can by pressing 's'
+:::
+
+## Why is it a problem?
+
+## Here's our solution - with columns!
+
+:::: {.columns}
+::: {.column width="48%"}
+- Here's a point in the first column
+- And another
+:::
+::: {.column width="48%"}
+- This one is in the second column
+- And so is this one
+:::
+::::

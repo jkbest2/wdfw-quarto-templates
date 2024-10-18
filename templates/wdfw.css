@@ -1,0 +1,22 @@
+:root {
+    --r-heading-font: Rockwell, serif;
+    --r-heading-color: #007A53;
+    --r-heading1-size: 43.25pt;
+    --r-heading2-size: 38.44pt;
+    --r-heading3-size: 34.17pt;
+    --r-heading4-size: 30.38pt;
+    --r-heading5-size: 27pt;
+
+    --r-main-font: Ebrima, sans-serif;
+    --r-main-color: #28557A;
+    --r-main-font-size: 24pt;
+
+    --mermaid-bg-color: #FFFFFF;
+    --mermaid-edge-color: #007A53;
+    --mermaid-node-fg-color: #28557A;
+    --mermaid-node-bg-color: #92D4DA;
+    --mermaid-fg-color: #222222;
+    --mermaid-label-bg-color: #7286A0;
+    --mermaid-label-fg-color: #28557A;
+    --mermaid-font-family: Ebrima, sans-serif;
+}
